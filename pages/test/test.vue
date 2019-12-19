@@ -50,7 +50,7 @@
 						text: "购物车"
 					},
 					{
-						pagePath: "pages/tabBar/index/index",
+						pagePath: "pages/tabBar/process/process",
 						iconPath: "/static/order.png",
 						selectedIconPath: "/static/ordered.png",
 						text: "订单"

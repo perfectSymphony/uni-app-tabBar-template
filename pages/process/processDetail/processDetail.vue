@@ -2,21 +2,19 @@
 	<view class="wrapper">
 		<view class="process-wapper">
 			<view>
-				<uni-card title="城乡居民医疗保险登记" thumbnail="/static/thumbnail.png" is-shadow="true" is-full="true">
+				<uni-card title="xxxxxxxxxxxxx" thumbnail="/static/thumbnail.png" is-shadow="true" is-full="true">
 						<view class="base-info">
-							申报编号: xxxxxxxxxxxx  <br />
-							申报时间: xxxxxxxxxxxx  <br />
-							办件状态: xxxx
+							xxx编号: xxxxxxxxxxxx  <br />
+							xxx时间: xxxxxxxxxxxx  <br />
+							xxx状态: xxxx
 						</view>
 				</uni-card>
 			</view>
 			<view style="margin-top: 20rpx;">
 				<uni-card title="办事人信息" thumbnail="/static/thumbnail.png" is-shadow="true" is-full="true">
 						<view class="base-info">
-							办事人姓名：xxxx  <br />
+							姓名：xxxx  <br />
 							身份证号: xxxxxxxxxxxxxx  <br />
-							所属街道: xxxxxx     <br />
-							所属社区: xxxxxx     <br />
 						</view>
 				</uni-card>
 			</view>			
