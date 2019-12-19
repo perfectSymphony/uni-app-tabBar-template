@@ -17,8 +17,10 @@
 	<view class="nav-bar">
 		<block v-for="(item,index) in tabList" :key="index">
 			<view class="navigator" @tap="switchTab(index,item)">
-				<image class="nav-icon" :src="currentTabIndex == index ? item.selectedIconPath : item.iconPath" mode="aspectFill" />
-				<view class="text" :style="[currentTabIndex == index ? {'color': tintColor} : {'color': color}]">{{item.text}}</view>
+				<navigator url="/pages/tabBar/process/process" open-type="switchTab">
+					<image class="nav-icon" :src="currentTabIndex == index ? item.selectedIconPath : item.iconPath" mode="aspectFill" />
+					<view class="text" :style="[currentTabIndex == index ? {'color': tintColor} : {'color': color}]">{{item.text}}</view>
+				</navigator>
 			</view>
 		</block>
 	</view>
