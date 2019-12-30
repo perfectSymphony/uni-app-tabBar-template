@@ -3,7 +3,7 @@
         {
             "path" : "pages/test/test",
             "style" : {
-							"navigationBarTitleText": "uni-app-tabBar-template"
+							"navigationBarTitleText": "你的头条"
 						}
         },
 			{
